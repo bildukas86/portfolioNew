@@ -1,0 +1,70 @@
+.side-top-nav{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  .logo{
+    margin: auto 0;
+    .inner-logo{
+      background-color: black;
+      color: white;
+      border-radius: 50%;
+      h1{
+        font-size: 3rem;
+        margin: 0;
+      }
+    }
+  }
+  .inner-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #48cae4;
+
+  }
+}
+
+// hamburger menu change
+.menu-xs{
+  display: inline-block;
+  padding: 10px;
+  margin: auto 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.ham1, .ham2, .ham3{
+  background-color: white;
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+
+}
+.change .ham1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .ham2 {opacity: 0;}
+
+.change .ham3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+//navigation menu
+.navigation{
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  background-color: #48cae4;
+  transition: 0.5s;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  ul{
+    font-size: 1.5rem;
+  }
+}

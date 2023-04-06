@@ -345,4 +345,88 @@ template {
 body {
   background-color: yellow; }
 
+/* line 4, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/base/_base.scss */
+ul {
+  list-style: none;
+  padding: 0; }
+
+/* line 8, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/base/_base.scss */
+a {
+  text-decoration: none;
+  color: black; }
+
+/* line 13, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/base/_base.scss */
+.container {
+  padding: 0 10px; }
+
+/* line 1, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+.side-top-nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  /* line 7, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+  .side-top-nav .logo {
+    margin: auto 0; }
+    /* line 9, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+    .side-top-nav .logo .inner-logo {
+      background-color: black;
+      color: white;
+      border-radius: 50%; }
+      /* line 13, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+      .side-top-nav .logo .inner-logo h1 {
+        font-size: 3rem;
+        margin: 0; }
+  /* line 19, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+  .side-top-nav .inner-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #48cae4; }
+
+/* line 31, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+.menu-xs {
+  display: inline-block;
+  padding: 10px;
+  margin: auto 10px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+/* line 39, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+.ham1, .ham2, .ham3 {
+  background-color: white;
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s; }
+
+/* line 47, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+.change .ham1 {
+  transform: translate(0, 11px) rotate(-45deg); }
+
+/* line 51, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+.change .ham2 {
+  opacity: 0; }
+
+/* line 53, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+.change .ham3 {
+  transform: translate(0, -11px) rotate(45deg); }
+
+/* line 58, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+.navigation {
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  background-color: #48cae4;
+  transition: 0.5s;
+  position: absolute;
+  top: 80px;
+  left: 0; }
+  /* line 67, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
+  .navigation ul {
+    font-size: 1.5rem; }
+
 /*# sourceMappingURL=style.css.map */
