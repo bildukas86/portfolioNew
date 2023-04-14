@@ -341,23 +341,15 @@ template {
 [hidden] {
   display: none; }
 
-/* line 1, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/base/_base.scss */
-body {
-  background-color: yellow; }
-
-/* line 4, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/base/_base.scss */
+/* line 5, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/base/_base.scss */
 ul {
   list-style: none;
   padding: 0; }
 
-/* line 8, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/base/_base.scss */
+/* line 9, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/base/_base.scss */
 a {
   text-decoration: none;
   color: black; }
-
-/* line 13, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/base/_base.scss */
-.container {
-  padding: 0 10px; }
 
 /* line 1, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
 .side-top-nav {
@@ -428,5 +420,34 @@ a {
   /* line 67, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_sideTopNav.scss */
   .navigation ul {
     font-size: 1.5rem; }
+
+/* line 1, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_container.scss */
+.container {
+  margin-top: 80px; }
+
+/* line 5, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_container.scss */
+.my-name {
+  background-color: #48cae4;
+  width: 250px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px; }
+
+/* line 15, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_container.scss */
+.inner-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+/* line 24, ../Users/ekonc/Documents/GitHub/portfolioNew/scss/module/_container.scss */
+.projects {
+  width: 100%;
+  height: 500px; }
 
 /*# sourceMappingURL=style.css.map */
